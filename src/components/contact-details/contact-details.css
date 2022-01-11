@@ -1,0 +1,33 @@
+.contact-details {
+  border-right: 2px solid #575757;
+  border-bottom: 2px solid #575757;
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 7px;
+  box-shadow: 2px 2px 7px #333333;
+  text-align: center;
+}
+
+.contact-details-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: .25rem;
+}
+
+.contact-details-info label {
+  font-weight: bold;
+  color: #000000;
+  font-style: italic;
+}
+
+.contact-details-info span {
+  font-style: italic;
+  flex-grow: 1;
+}
+
+.contact-details-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
