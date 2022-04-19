@@ -1,10 +1,10 @@
 const routes = {
   contact: {
-    home:     '/',
-    edit:     '/contact/edit',
-    details:  '/contact/details',
-    delete:   '/contact/delete',
-    all:      '/contacts/all'
+    home:     `${process.env.PUBLIC_URL}/`,
+    edit:     `${process.env.PUBLIC_URL}/contact/edit`,
+    details:  `${process.env.PUBLIC_URL}/contact/details`,
+    delete:   `${process.env.PUBLIC_URL}/contact/delete`,
+    all:      `${process.env.PUBLIC_URL}/contacts/all`
   }
 };
 

@@ -1,8 +1,8 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
 
-import Search from '/src/components/search/search';
-import PeopleList from '/src/components/people-list/people-list';
+import Search from 'components/search/search';
+import PeopleList from 'components/people-list/people-list';
 
 const SearchContact = () => {
   const contacts = useSelector((state) => state.contacts);

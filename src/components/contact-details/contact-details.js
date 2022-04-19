@@ -2,10 +2,10 @@ import { useState }                 from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import './contact-details.css';
 
-import contactActions from '/src/actions/contact-actions';
-import IconLink       from '/src/components/icon-link/icon-link';
-import Modal          from '/src/components/modal/modal';
-import routes         from '/src/routes/routes';
+import contactActions from 'actions/contact-actions';
+import IconLink       from 'components/icon-link/icon-link';
+import Modal          from 'components/modal/modal';
+import routes         from 'routes/routes';
 
 const ContactDetails = () => {
   const dispatch  = useDispatch();

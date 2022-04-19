@@ -1,4 +1,4 @@
-import Link                 from '/src/components/router/link';
+import Link                 from 'components/router/link';
 import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import './icon-link.css';
 

@@ -1,8 +1,8 @@
 import { useEffect, useState      } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import contactActions from '/src/actions/contact-actions';
-import routes         from '/src/routes/routes';
+import contactActions from 'actions/contact-actions';
+import routes         from 'routes/routes';
 
 const Router = ({ path, children }) => {
   const initialState  = useSelector((state) => state.initialState);

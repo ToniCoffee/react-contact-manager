@@ -2,10 +2,10 @@ import { useState                 } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import "./people-list.css";
 
-import IconLink       from '/src/components/icon-link/icon-link';
-import Modal          from '/src/components/modal/modal';
-import contactActions from '/src/actions/contact-actions';
-import routes         from '/src/routes/routes';
+import IconLink       from 'components/icon-link/icon-link';
+import Modal          from 'components/modal/modal';
+import contactActions from 'actions/contact-actions';
+import routes         from 'routes/routes';
 
 const PeopleList = ({select, data, displayType = 'normal'}) => {
   const contacts      = useSelector((state) => state.contacts);

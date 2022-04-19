@@ -1,4 +1,4 @@
-import data from '/src/contacts-data';
+import data from 'contacts-data';
 
 // Reducer function
 const contactsReducer = (state = data, action) => {

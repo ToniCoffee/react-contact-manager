@@ -1,18 +1,18 @@
 import { createStore } from "redux";
 import { Provider    } from "react-redux";
 import { library     } from '@fortawesome/fontawesome-svg-core';
-import { faPenSquare, faTrashAlt,faAlignJustify, faSearch } from '@fortawesome/free-solid-svg-icons';
-import "/src/styles.css";
+import { faPenSquare, faTrashAlt, faAlignJustify, faSearch } from '@fortawesome/free-solid-svg-icons';
+import 'styles.css';
 
-import contactsReducer    from '/src/reducers/contacts-reducer';
-import PeopleList         from "/src/components/people-list/people-list";
-import ContactDetails     from "/src/components/contact-details/contact-details";
-import Router             from "/src/components/router/router";
-import ContactForm        from "/src/components/contact-form/contact-form";
-import ContactFormConfirm from "/src/components/contact-form-confirm/contact-form-confirm";
-import SearchContact      from "/src/components/search-contact/search-contact";
-import routes             from "/src/routes/routes";
-import Link               from "./components/router/link";
+import contactsReducer    from 'reducers/contacts-reducer';
+import PeopleList         from "components/people-list/people-list";
+import ContactDetails     from "components/contact-details/contact-details";
+import Router             from "components/router/router";
+import ContactForm        from "components/contact-form/contact-form";
+import ContactFormConfirm from "components/contact-form-confirm/contact-form-confirm";
+import SearchContact      from "components/search-contact/search-contact";
+import routes             from "routes/routes";
+import Link               from "components/router/link";
 
 library.add(faPenSquare, faTrashAlt,faAlignJustify, faSearch);
 const store = createStore(contactsReducer);

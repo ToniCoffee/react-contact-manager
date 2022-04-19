@@ -1,9 +1,9 @@
 import { useState                 } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import ContactForm    from "/src/components/contact-form/contact-form";
-import Modal          from '/src/components/modal/modal';
-import contactActions from '/src/actions/contact-actions';
+import ContactForm    from "components/contact-form/contact-form";
+import Modal          from 'components/modal/modal';
+import contactActions from 'actions/contact-actions';
 
 const ContactFormConfirm = ( { text, btnText, onSubmit } ) => {
   const dispatch = useDispatch();

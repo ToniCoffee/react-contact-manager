@@ -2,7 +2,7 @@ import { useState                 } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import './contact-form.css';
 
-import contactActions from '/src/actions/contact-actions';
+import contactActions from 'actions/contact-actions';
 
 const ContactForm = ( { text, btnText, onSubmit } ) => {
   const selected = useSelector((state) => state.selected);
